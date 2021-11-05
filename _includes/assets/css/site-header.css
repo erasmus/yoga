@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  border-top: 3px solid var(--color-secondary);
 }
 
 @media (min-width: 1024px) {
@@ -33,6 +32,7 @@
 .site-header__nav {
   width: 100%;
   margin-top: 15px;
+  text-transform: uppercase;
 }
 
 @media (min-width: 1024px) {
@@ -55,13 +55,13 @@
 .site-header__item {
 	margin: 0 6px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 @media (min-width: 1024px) {
   .site-header__item {
     margin: 0 20px;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -72,6 +72,6 @@
 }
 
 .site-header__link:hover {
-  border-bottom: none;
+  border-bottom: 1px solid;
 }
 

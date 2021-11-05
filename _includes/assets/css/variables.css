@@ -19,7 +19,7 @@
   /* Typography */
   --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  --font-family-heading: var(--font-family-base);
+  --font-family-heading: "Prata", serif;
 
   /* Sizes */
   --site-width: 850px;
